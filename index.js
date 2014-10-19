@@ -3,4 +3,4 @@ var moduleObj = {
 	socketClient : require('./lib/socket/socketClient').SocketClient
 };
 
-var sc = new moduleObj.socketClient().start();
+module.exports = moduleObj;
