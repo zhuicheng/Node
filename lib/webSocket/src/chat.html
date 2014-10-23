@@ -35,22 +35,8 @@
 		});
 
 		setTimeout(function() {
-			/* $.ajax('http://localhost:8888/json', function(data) {
-				alert(data);
+			$.post('http://localhost:8888/json', function(data) {
 				console.log(data);
-			}); */
-
-			$.ajax({
-				type : "POST",
-				url : "http://localhost:8888/json",
-				success : function(data) {
-					console.log('success:');
-					console.log(data);
-				},
-				error : function(data) {
-					console.log('error:');
-					console.log(data);
-				}
 			});
 		}, 1000);
 	});
