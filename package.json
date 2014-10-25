@@ -1,29 +1,30 @@
 {
-	"name" : "Node",
-	"version" : "1.0.0",
-	"description" : "",
-	"main" : "index.js",
-	"directories" : {
-		"doc" : "doc"
+	"name": "Node",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"doc": "doc"
 	},
-	"scripts" : {
-		"test" : "echo \"Error: no test specified\" && exit 1"
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/zhuicheng/Node.git"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zhuicheng/Node.git"
 	},
-	"author" : "MaXiao",
-	"license" : "ISC",
-	"bugs" : {
-		"url" : "https://github.com/zhuicheng/Node/issues"
+	"author": "MaXiao",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zhuicheng/Node/issues"
 	},
-	"homepage" : "https://github.com/zhuicheng/Node",
-	"dependencies" : {
-		"optimist" : "0.6.1",
-		"socket.io" : "1.1.0",
-		"node-static" : "0.7.6",
-		"connect" : "1.9.2",
-		"blat" : "0.1.0"
+	"homepage": "https://github.com/zhuicheng/Node",
+	"dependencies": {
+		"optimist": "0.6.1",
+		"socket.io": "1.1.0",
+		"node-static": "0.7.6",
+		"connect": "1.9.2",
+		"blat": "0.1.0",
+		"request": "2.46.0"
 	}
 }
