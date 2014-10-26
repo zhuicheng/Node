@@ -1,7 +1,14 @@
 {
 	"name": "Node",
 	"version": "1.0.0",
-	"description": "",
+	"description": {
+		"optimist": "命令行解析模块",
+		"socket.io": "WebSocket依赖模块",
+		"node-static": "中间件",
+		"connect": "中间件",
+		"blat": "对象转String模块",
+		"request": "HTTP客户端模块"
+	},
 	"main": "index.js",
 	"directories": {
 		"doc": "doc"
