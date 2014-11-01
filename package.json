@@ -6,7 +6,6 @@
 		"socket.io": "WebSocket依赖模块",
 		"node-static": "中间件",
 		"connect": "中间件",
-		"blat": "对象转String模块",
 		"request": "HTTP客户端模块"
 	},
 	"main": "index.js",
@@ -31,7 +30,6 @@
 		"socket.io": "1.1.0",
 		"node-static": "0.7.6",
 		"connect": "1.9.2",
-		"blat": "0.1.0",
 		"request": "2.46.0"
 	}
 }
