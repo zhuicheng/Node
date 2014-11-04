@@ -5,7 +5,8 @@
 		"socket.io": "WebSocket依赖模块",
 		"node-static": "中间件",
 		"connect": "中间件",
-		"request": "HTTP客户端模块"
+		"request": "HTTP客户端模块",
+		"mysql": "连接MySQL模块"
 	},
 	"main": "index.js",
 	"directories": {
@@ -28,6 +29,7 @@
 		"socket.io": "1.1.0",
 		"node-static": "0.7.6",
 		"connect": "1.9.2",
-		"request": "2.46.0"
+		"request": "2.46.0",
+		"mysql": "2.5.2"
 	}
 }
