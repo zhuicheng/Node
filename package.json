@@ -2,7 +2,6 @@
 	"name": "Node",
 	"version": "1.0.0",
 	"description": {
-		"optimist": "命令行解析模块",
 		"socket.io": "WebSocket依赖模块",
 		"node-static": "中间件",
 		"connect": "中间件",
@@ -26,7 +25,6 @@
 	},
 	"homepage": "https://github.com/zhuicheng/Node",
 	"dependencies": {
-		"optimist": "0.6.1",
 		"socket.io": "1.1.0",
 		"node-static": "0.7.6",
 		"connect": "1.9.2",
