@@ -27,6 +27,8 @@ function Content() {
 	appendContent('	return v % 2 == 0;');
 	appendContent('}');
 	appendContent('var newArr = arr.filter(isEven); // [ 2, 4 ]');
+	appendContent('');
+	appendContent('// !~ 用于是否匹配： !~array.indexOf("xxx");');
 }
 
 var fs = require('fs');

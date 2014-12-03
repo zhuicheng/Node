@@ -13,3 +13,5 @@ function isEven(v) {
 	return v % 2 == 0;
 }
 var newArr = arr.filter(isEven); // [ 2, 4 ]
+
+// !~ 用于是否匹配： !~array.indexOf("xxx");
